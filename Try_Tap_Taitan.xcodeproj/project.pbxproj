@@ -16,6 +16,9 @@
 		B52114CC1B3D52EA005EFD4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B52114CB1B3D52EA005EFD4A /* Images.xcassets */; };
 		B52114CF1B3D52EA005EFD4A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B52114CD1B3D52EA005EFD4A /* LaunchScreen.xib */; };
 		B52114DB1B3D52EA005EFD4A /* Try_Tap_TaitanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B52114DA1B3D52EA005EFD4A /* Try_Tap_TaitanTests.m */; };
+		B52114E61B3D5724005EFD4A /* Monster.m in Sources */ = {isa = PBXBuildFile; fileRef = B52114E51B3D5724005EFD4A /* Monster.m */; };
+		B52114E91B3D57BE005EFD4A /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = B52114E81B3D57BE005EFD4A /* Player.m */; };
+		B52114EC1B3D5801005EFD4A /* Equipment.m in Sources */ = {isa = PBXBuildFile; fileRef = B52114EB1B3D5801005EFD4A /* Equipment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,12 @@
 		B52114D41B3D52EA005EFD4A /* Try_Tap_TaitanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Try_Tap_TaitanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52114D91B3D52EA005EFD4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B52114DA1B3D52EA005EFD4A /* Try_Tap_TaitanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Try_Tap_TaitanTests.m; sourceTree = "<group>"; };
+		B52114E41B3D5723005EFD4A /* Monster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monster.h; sourceTree = "<group>"; };
+		B52114E51B3D5724005EFD4A /* Monster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Monster.m; sourceTree = "<group>"; };
+		B52114E71B3D57BE005EFD4A /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		B52114E81B3D57BE005EFD4A /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		B52114EA1B3D5801005EFD4A /* Equipment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Equipment.h; sourceTree = "<group>"; };
+		B52114EB1B3D5801005EFD4A /* Equipment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Equipment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +102,12 @@
 				B52114C31B3D52EA005EFD4A /* GameScene.sks */,
 				B52114C51B3D52EA005EFD4A /* GameViewController.h */,
 				B52114C61B3D52EA005EFD4A /* GameViewController.m */,
+				B52114E41B3D5723005EFD4A /* Monster.h */,
+				B52114E51B3D5724005EFD4A /* Monster.m */,
+				B52114E71B3D57BE005EFD4A /* Player.h */,
+				B52114E81B3D57BE005EFD4A /* Player.m */,
+				B52114EA1B3D5801005EFD4A /* Equipment.h */,
+				B52114EB1B3D5801005EFD4A /* Equipment.m */,
 				B52114C81B3D52EA005EFD4A /* Main.storyboard */,
 				B52114CB1B3D52EA005EFD4A /* Images.xcassets */,
 				B52114CD1B3D52EA005EFD4A /* LaunchScreen.xib */,
@@ -229,8 +244,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B52114C71B3D52EA005EFD4A /* GameViewController.m in Sources */,
+				B52114E61B3D5724005EFD4A /* Monster.m in Sources */,
+				B52114EC1B3D5801005EFD4A /* Equipment.m in Sources */,
 				B52114BF1B3D52EA005EFD4A /* AppDelegate.m in Sources */,
 				B52114C21B3D52EA005EFD4A /* GameScene.m in Sources */,
+				B52114E91B3D57BE005EFD4A /* Player.m in Sources */,
 				B52114BC1B3D52EA005EFD4A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
